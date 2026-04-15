@@ -1,0 +1,10 @@
+{
+  "id": "slack-topic-keeper",
+  "name": "Slack Topic Keeper",
+  "version": "0.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "Fetches Slack messages and writes them as Markdown into the vault.",
+  "author": "",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
