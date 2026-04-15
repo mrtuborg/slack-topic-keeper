@@ -65,6 +65,10 @@ Obsidian plugin that archives your Slack mentions and messages as daily Markdown
 - The plugin communicates **only** with `https://slack.com/api/` — no other endpoints.
 - The token is **never** logged to the console or included in error messages.
 
+## Documentation
+
+For a full step-by-step walkthrough, see the [User Guide](docs/user-guide.md).
+
 ## License
 
 MIT — see [LICENSE](LICENSE)
