@@ -11,7 +11,7 @@ import { BackfillDetector } from "./sync/backfill";
 
 export default class SlackTopicKeeperPlugin extends Plugin {
   settings!: PluginSettings;
-  private _saveTimeout: number | null = null;
+  private _saveTimeout: ReturnType<typeof setTimeout> | null = null;
 
   async onload(): Promise<void> {
     await this.loadSettings();
